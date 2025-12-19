@@ -1,30 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Kristina Mwangeka | AI Engineer Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kristina Mwangeka | AI Engineer & Data Scientist</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <section id="hero">
-        <h1>Kristina Mwangeka</h1>
-        <p>AI Engineer & Data Scientist | Specializing in NLP, BERT, and Data Pipelines</p>
-    </section>
 
-    <section id="projects">
-        <h2>Key Projects</h2>
-        
-        <div class="card">
-            <h3>NLP-Driven Ransomware Analysis</h3>
-            <p>Built a data engineering pipeline to aggregate security discussions into actionable insights.</p>
-            <a href="https://github.com/KristinaMwangeka/nlp-driven-ransomware-analysis" class="btn">View Code</a>
-        </div>
+  <!-- Navigation -->
+  <header>
+    <nav class="container">
+      <h2 class="logo">KM</h2>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#resume">CV</a></li>
+      </ul>
+    </nav>
+  </header>
 
-        <div class="card">
-            <h3>BERT Issue Classification</h3>
-            <p>Fine-tuned BERT models to automate GitHub issue triage and topic discovery.</p>
-            <a href="https://github.com/KristinaMwangeka/mining-github-issues-for-classification-and-topic-disco" class="btn">View Code</a>
-        </div>
-    </section>
+  <!-- Hero -->
+  <section class="hero container">
+    <h1>AI Engineer & Data Scientist</h1>
+    <p class="subtitle">
+      Bridging data, intelligence, and strategy to build impactful, real-world solutions.
+    </p>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container section">
+    <h2>My Story</h2>
+    <p>
+      My journey into AI and data science is rooted in a strong foundation in accounting and information systems,
+      where I learned how data drives decisions at scale. As I advanced into analytics, machine learning, and NLP,
+      I became deeply interested in transforming complex, unstructured data into strategic insights.
+    </p>
+    <p>
+      Today, my focus is on building intelligent systems that support high-impact decision-making —
+      from cybersecurity threat analysis to healthcare capacity planning — combining technical rigor with
+      business awareness.
+    </p>
+  </section>
+
+  <!-- Projects -->
+  <section id="projects" class="container section">
+    <h2>Selected Projects</h2>
+
+    <div class="project-grid">
+
+      <a href="https://github.com/KristinaMwangeka/nlp-driven-ransomware-analysis" target="_blank" class="project-card">
+        <h3>NLP-Driven Ransomware Analysis</h3>
+        <p><strong>Business Problem:</strong> Understanding ransomware tactics from unstructured online discussions.</p>
+        <p><strong>Tools:</strong> Python, NLP, LDA, BERTopic, SVM</p>
+        <p><strong>Outcome:</strong> Identified attack patterns and emerging threat themes to support cybersecurity intelligence.</p>
+      </a>
+
+      <a href="https://github.com/KristinaMwangeka/mining-github-issues-for-classification-and-topic-discovery" target="_blank" class="project-card">
+        <h3>BERT Issue Classification</h3>
+        <p><strong>Business Problem:</strong> Automating GitHub issue categorization for faster triage.</p>
+        <p><strong>Tools:</strong> BERT, Transformers, Python</p>
+        <p><strong>Outcome:</strong> Improved issue classification accuracy and reduced manual review effort.</p>
+      </a>
+
+      <a href="https://github.com/KristinaMwangeka/proactive-hospital-capacity-and-workforce-planning" target="_blank" class="project-card">
+        <h3>Hospital Capacity & Workforce Planning</h3>
+        <p><strong>Business Problem:</strong> Predicting hospital demand to optimize staffing.</p>
+        <p><strong>Tools:</strong> Predictive Analytics, Power BI, SQL</p>
+        <p><strong>Outcome:</strong> Enabled proactive planning through data-driven resource forecasts.</p>
+      </a>
+
+      <a href="https://github.com/KristinaMwangeka/business-insights-yelp" target="_blank" class="project-card">
+        <h3>Business Insights from Yelp Reviews</h3>
+        <p><strong>Business Problem:</strong> Extracting actionable insights from customer reviews.</p>
+        <p><strong>Tools:</strong> NLP, Python, Sentiment Analysis</p>
+        <p><strong>Outcome:</strong> Translated customer sentiment into strategic business recommendations.</p>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="container section">
+    <h2>Core Skills</h2>
+    <div class="skills-grid">
+      <span>Python</span>
+      <span>NLP</span>
+      <span>BERT</span>
+      <span>Transformers</span>
+      <span>Predictive Analytics</span>
+    </div>
+  </section>
+
+  <!-- Resume -->
+  <section id="resume" class="container section">
+    <h2>Resume & Credentials</h2>
+    <p>
+      MSc in Management Information Systems (GPA 4.0) with a background in accounting and hands-on experience
+      across data analytics, NLP, BI development, and applied machine learning.
+    </p>
+    <a href="#" class="btn">Download Full CV</a>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://github.com/KristinaMwangeka" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
 </body>
 </html>
